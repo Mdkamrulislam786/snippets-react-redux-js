@@ -1,0 +1,28 @@
+.listitem {
+    margin: 3px auto;
+    background-color: #f8f8f8;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.listitem p {
+    color: #000;
+    font-weight: bold;
+    margin: 0;
+}
+
+.listitem i {
+    color: red;
+    margin-left: 1rem;
+}
+
+.listitemp{
+    color: #000;
+    font-weight: bold;
+    margin: 0;
+    text-decoration: line-through;
+}
