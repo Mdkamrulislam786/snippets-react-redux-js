@@ -3,12 +3,13 @@ import './Button.css'
 
 interface ButtonProps{
     text: string
+    setTodosItems?: any
 }
 
-const Button = ({text}:ButtonProps) => {
+const Button = ({ text, setTodosItems}:ButtonProps) => {
     return (
         <div>
-            <button className="btn" > {text} </button>
+            <button onClick={setTodosItems} className="btn" > {text} </button>
         </div>
     )
 }

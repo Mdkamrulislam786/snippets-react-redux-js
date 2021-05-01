@@ -1,8 +1,13 @@
 import React from 'react'
 import './Input.css'
-const InputFeild = () => {
+interface InputFeildProps {
+    value?: string
+    change?: any
+}
+
+const InputFeild = ({ value, change}: InputFeildProps) => {
     return (
-            <input className="todo-input" type="text" placeholder="Write here.. " />
+        <input value={value} onChange={({ target }) => change(target.value)} className="todo-input" type="text" placeholder="Write here.. " />
     )
 }
 

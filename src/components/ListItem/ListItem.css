@@ -18,11 +18,16 @@
 .listitem i {
     color: red;
     margin-left: 1rem;
+    cursor: pointer;
 }
 
-.listitemp{
-    color: #000;
+.todoIncomplete {
+    background-color: #f8f8f8;
+    outline: transparent;
+    border: none;
     font-weight: bold;
-    margin: 0;
+}
+
+.todoCompleted {
     text-decoration: line-through;
 }
