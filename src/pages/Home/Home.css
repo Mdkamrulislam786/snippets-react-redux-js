@@ -18,6 +18,10 @@
     color: #757575;
 }
 
+.home_filterwrapper p {
+    font-size: 14px;
+}
+
 .home_filterwrapper button {
     margin-left: 5px;
     background-color: #f8f8f8;
